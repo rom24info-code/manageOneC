@@ -1,0 +1,73 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.jetbrains.kotlin.jvm' version '1.6.10'
+    id 'org.openjfx.javafxplugin' version '0.0.10'
+    id 'org.beryx.runtime' version '1.12.7'
+}
+
+group 'com.manage0neC'
+version '1.0.0'
+
+repositories {
+    mavenCentral()
+    flatDir {
+        dir 'lib'
+    }
+}
+
+ext {
+    junitVersion = '5.8.2'
+}
+
+sourceCompatibility = '16'
+targetCompatibility = '16'
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+application {
+//    mainModule = 'com.manage0nec.manageonec'
+    mainClass = 'com.manage0nec.manageonec.MainKt'
+}
+
+[compileKotlin, compileTestKotlin].forEach {
+    it.kotlinOptions {
+        jvmTarget = '16'
+    }
+}
+
+javafx {
+    version = '18'
+    modules = ['javafx.controls', 'javafx.fxml']
+}
+
+dependencies {
+
+    testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
+    implementation 'org.openjfx:javafx:17.0.1'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-javafx:1.6.1'
+    implementation 'com.googlecode.json-simple:json-simple:1.1'
+    implementation 'com.jacob:jacob:1.20'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+runtime {
+    jpackage {
+        def currentOs = org.gradle.internal.os.OperatingSystem.current()
+        if(currentOs.windows) {
+            installerOptions += ['--win-per-user-install', '--win-dir-chooser', '--win-menu', '--win-shortcut']
+            imageOptions = ['--win-console']
+        }
+    }
+}
+
+
+//jlinkZip {
+//    group = 'distribution'
+//}
