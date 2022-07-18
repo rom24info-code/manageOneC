@@ -1,0 +1,233 @@
+ {
+"sorceConfAsFile": true,
+"sorceConfFileBase": false,
+"sourceConf1cForUpdate": "C:\conf.cf",
+"sourceConfConnectionString": "Srvr=\"fin-1c\";Ref=\"dt-buh2019\";Usr=\"Администратор\";Pwd=\"1970\";",
+"servers1c":
+[{
+"name": "m001-1c",
+"ip": "",
+"nameBase1c": "chudom001"
+},
+{
+"name": "m002-1c",
+"ip": "",
+"nameBase1c": "chudom002"
+},
+{
+"name": "m003-1c",
+"ip": "",
+"nameBase1c": "chudom003"
+},
+{
+"name": "srv-1c-mag",
+"ip": "",
+"nameBase1c": "chudom004"
+},
+{
+"name": "m005-1c",
+"ip": "",
+"nameBase1c": "chudom005"
+},
+{
+"name": "sql01",
+"ip": "",
+"nameBase1c": "chudoM006"
+},
+{
+"name": "m007-1c",
+"ip": "",
+"nameBase1c": "chudom007"
+},
+{
+"name": "m011-1c",
+"ip": "",
+"nameBase1c": "chudom011"
+},
+{
+"name": "m012-1c",
+"ip": "",
+"nameBase1c": "chudom012"
+},
+{
+"name": "m013-1c",
+"ip": "",
+"nameBase1c": "chudom013"
+},
+{
+"name": "m014-1c",
+"ip": "",
+"nameBase1c": "chudom014"
+},
+{
+"name": "m015-1c",
+"ip": "",
+"nameBase1c": "chudom015"
+},
+{
+"name": "m016-1c",
+"ip": "",
+"nameBase1c": "chudom016"
+},
+{
+"name": "m017-1c",
+"ip": "",
+"nameBase1c": "chudom017"
+},
+{
+"name": "m018-1c",
+"ip": "",
+"nameBase1c": "chudom018"
+},
+{
+"name": "m019-1c",
+"ip": "",
+"nameBase1c": "chudom019"
+},
+{
+"name": "m020-1c",
+"ip": "",
+"nameBase1c": "chudom020"
+},
+{
+"name": "m021-1c",
+"ip": "",
+"nameBase1c": "chudom021"
+},
+{
+"name": "m026-1c",
+"ip": "",
+"nameBase1c": "chudom026"
+},
+{
+"name": "m027-1c",
+"ip": "",
+"nameBase1c": "chudom027"
+},
+{
+"name": "m028-1c",
+"ip": "",
+"nameBase1c": "chudom028"
+},
+{
+"name": "m029-1c",
+"ip": "",
+"nameBase1c": "chudom029"
+},
+{
+"name": "m033-1c",
+"ip": "",
+"nameBase1c": "chudom033"
+},
+{
+"name": "m035-1c",
+"ip": "",
+"nameBase1c": "chudom035"
+},
+{
+"name": "m036-1c",
+"ip": "",
+"nameBase1c": "chudom036"
+},
+{
+"name": "m037-1c",
+"ip": "",
+"nameBase1c": "chudom037"
+},
+{
+"name": "m039-1c",
+"ip": "",
+"nameBase1c": "chudom039"
+},
+{
+"name": "m040-1c",
+"ip": "",
+"nameBase1c": "chudom040"
+},
+{
+"name": "m041-1c",
+"ip": "",
+"nameBase1c": "chudom041"
+},
+{
+"name": "m042-1c",
+"ip": "",
+"nameBase1c": "chudom042"
+},
+{
+"name": "m043-1c",
+"ip": "",
+"nameBase1c": "chudom043"
+},
+{
+"name": "m044-1c",
+"ip": "",
+"nameBase1c": "chudom044"
+},
+{
+"name": "m045-1c",
+"ip": "",
+"nameBase1c": "chudom045"
+},
+{
+"name": "m046-1c",
+"ip": "",
+"nameBase1c": "chudom046"
+},
+{
+"name": "m047-1c",
+"ip": "",
+"nameBase1c": "chudom047"
+},
+{
+"name": "m048-1c",
+"ip": "",
+"nameBase1c": "chudom048"
+},
+{
+"name": "m049-1c",
+"ip": "",
+"nameBase1c": "chudom049"
+},
+{
+"name": "m050-1c",
+"ip": "",
+"nameBase1c": "chudom050"
+},
+{
+"name": "m051-1c",
+"ip": "",
+"nameBase1c": "chudom051"
+},
+{
+"name": "srv-1c-mag",
+"ip": "",
+"nameBase1c": "chudom052"
+},
+{
+"name": "m053-1c",
+"ip": "",
+"nameBase1c": "chudom053"
+},
+{
+"name": "srv-1c-mag",
+"ip": "",
+"nameBase1c": "chudom054"
+},
+{
+"name": "m055-1c",
+"ip": "",
+"nameBase1c": "chudom055"
+},
+{
+"name": "srv-1c-mag",
+"ip": "",
+"nameBase1c": "chudom056"
+},
+{
+"name": "srv-m057",
+"ip": "",
+"nameBase1c": "chudom057"
+}
+]
+}

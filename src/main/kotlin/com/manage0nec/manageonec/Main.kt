@@ -84,7 +84,7 @@ class Main: Application() {
 }
 
 fun main(args: Array<String>) {
-    val activeX = ActiveXComponent("V83.COMConnector")
-	activeX.invoke("Connect", "File=\"D:\\1C\\FileBases\\DemoBuh30\";Usr=\"АбрамовГС (директор)\";Pwd=\"\";")
+//    val activeX = ActiveXComponent("V83.COMConnector")
+//	activeX.invoke("Connect", "File=\"D:\\1C\\FileBases\\DemoBuh30\";Usr=\"АбрамовГС (директор)\";Pwd=\"\";")
     Application.launch(Main::class.java, *args)
 }
